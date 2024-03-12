@@ -15,7 +15,7 @@ import sklearn # for one hot encoding
 import streamlit as st # for web app
 
 # load the dataset
-df = pd.read_csv('./ibid_2020.csv') # for loading the dataset
+df = pd.read_csv(' https://www.indybiosystems.com/datasets/ibid_2020.csv') # for loading the dataset
 st.title('Ibid Dataset Analysis') # for title
 st.subheader('Data Overview') # for data overview
 pd.set_option('display.max_rows', None) # for showing all rows
